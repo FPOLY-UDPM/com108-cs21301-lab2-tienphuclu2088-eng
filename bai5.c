@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [Lưu Phúc Tiến]
+ * MSSV:      [PS48200]
+ * Lớp:       [COM8-CS21301]
  *****************************************************************************/
 
 // BÀI LÀM THÊM
@@ -11,9 +11,14 @@
 
 int main(){
     int so1, so2;
-
-    printf("Chương trình tính tích và thương của 2 số\n");
-
-
+    int tich, thuong;
+    printf("Nhap so thu nhat: ");
+    scanf("%d", &so1);
+    printf("Nhap so thu hai: ");
+    scanf("%d", &so2);
+    tich = so1 * so2;
+    thuong = so1 / so2;
+    printf("Tich cua %d va %d la: %d\n", so1, so2, tich);
+    printf("Thuong cua %d va %d la: %d\n", so1, so2, thuong);
     return 0;
 } 
