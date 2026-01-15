@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [Lưu Phúc Tiến]
+ * MSSV:      [PS48200]
+ * Lớp:       [COM8-CS21301]
  *****************************************************************************/
 
  // BÀI 1: XÂY DỰNG CHƯƠNG TRÌNH CỘNG / TRỪ 2 SỐ 
@@ -11,13 +11,13 @@
 #include <stdio.h>
 
 int main(){
-    // Khai báo biến
-
-    // Nhập dữ liệu
-
-
-    // Xử lý, tính toán
-
-    // Hiển thị kết quả
-
+int a,b;
+int tong,hieu;
+a=10;
+b=59;
+tong=a+b;
+hieu=a-b;
+printf("Tong cua %d va %d la: %d\n",a,b,tong);
+printf("Hieu cua %d va %d la: %d\n",a,b,hieu);
+return 0;
 }

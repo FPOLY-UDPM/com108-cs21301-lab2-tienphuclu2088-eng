@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [Lưu Phúc Tiến]
+ * MSSV:      [PS48200]
+ * Lớp:       [COM8-CS21301]
  *****************************************************************************/
 
  // BÀI 2: XÂY DỰNG CHƯƠNG TRÌNH TÍNH CHU VI DIỆN TÍCH HCN 
@@ -11,14 +11,15 @@
 #include <stdio.h>
 
 int main(){
-    // Khai báo biến
-
-    // Nhập dữ liệu
-
-
-    // Xử lý, tính toán
-
-    // Hiển thị kết quả
-
-
+int chieu_dai, chieu_rong;
+int chu_vi, dien_tich;
+printf("Nhap chieu dai hinh chu nhat: ");
+scanf("%d", &chieu_dai);
+printf("Nhap chieu rong hinh chu nhat: ");
+scanf("%d", &chieu_rong);
+chu_vi = 2 * (chieu_dai + chieu_rong);
+dien_tich = chieu_dai * chieu_rong;
+printf("Chu vi hinh chu nhat la: %d\n", chu_vi);
+printf("Dien tich hinh chu nhat la: %d\n", dien_tich);
+return 0;
 }
